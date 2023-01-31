@@ -1,0 +1,115 @@
+.form {
+    width: 350px;
+    display: grid;
+    grid-gap: 15px;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid rgb(197, 197, 197);
+    margin: 100px auto 10px;
+    border-radius: 3px;
+}
+
+.sg_logo {
+    width: 100%;
+    margin-top: 36px;
+    margin-bottom: 12px;
+}
+
+.lines_box {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+}  
+
+.line_1 {
+    width: 106px;
+    height: 1px;
+    background-color: rgb(219, 219, 219);
+    margin-right: 10px;
+}
+
+.line_2 {
+    width: 106px;
+    height: 1px;
+    background-color: rgb(219, 219, 219);
+    margin-left: 10px;
+}
+
+.or_box {
+    color: #8e8e95;
+}
+
+.fb_logo {
+    width: 15px;
+    height: 15px;
+}
+
+.box_fb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 8px;
+}
+
+.fb_link {
+    text-decoration: none;
+    color: #385989;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.register {
+    display: flex;
+    width: 350px;
+    grid-gap: 15px;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid rgb(197, 197, 197);
+    margin: 0px auto;
+    border-radius: 3px;
+}
+
+.r_txt {
+    font-size: 14px;
+    text-align: center;
+}
+
+.r_link {
+    text-decoration: none;
+    color: #385989;
+    font-weight: 600;
+}
+
+.dw_box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    margin: 0px auto;
+}
+
+.dw_txt {
+    margin: 10px 0;
+}
+
+.dw_box > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 50px;
+}
+
+.logo_app {
+    width: 105px;
+    cursor: pointer;
+}
+
+.logo_google {
+    width: 134px;
+    cursor: pointer;
+}
