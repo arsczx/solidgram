@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import Input from '../../components/input/Input'
 import classes from './LoginPage.module.css'
-import logo from '../../components/image/Solidgram.png'
-import logo_fb from '../../components/image/facebook.png'
-import logo_app from '../../components/image/appstore.png'
-import logo_google from '../../components/image/googleplay.png'
+import logo from './../../assets/Solidgram.png'
+import logo_fb from '../../assets/facebook.png'
+import logo_app from '../../assets/appstore.png'
+import logo_google from '../../assets/googleplay.png'
 
 
 function LoginPage(props) {

@@ -1,0 +1,28 @@
+.content {
+    margin: 35px 200px;
+    display: flex;
+    grid-gap: 20px;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.recomendation {
+    border: 2px solid black;
+    height: 350px;
+    width: 35%;
+}
+
+.innerContent {
+    width: 73%;
+}
+
+.storis {
+    height: 80px;
+    width: 100%;
+    border: 2px solid blue;
+}
+
+.posts {
+    width: 100%;
+    margin-top: 30px;
+}
