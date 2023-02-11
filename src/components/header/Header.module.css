@@ -1,0 +1,20 @@
+.info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.title {
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(38, 38, 38); 
+    text-transform: lowercase;
+}
+
+.avatar {
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+}

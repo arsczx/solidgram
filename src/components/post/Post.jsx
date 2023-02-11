@@ -1,15 +1,28 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import Actions from '../actions/Actions';
+import Comment from '../comment/Comment';
+import Header from '../header/Header';
 import css from './Post.module.css';
 
-function Post() {
+function Post(props) {
   return (
     <div className={css.wrapper}>
-        <div>Header</div>
-        <div className={css.image}>
-            <img src="https://cdn.britannica.com/34/212134-050-A7289400/Lionel-Messi-2018.jpg" alt="" />
-        </div>
-        <div>Actions</div>
+          <Header author={props.author} avatar={props.avatar}/>
+        <Link to={`/post/${props.id}`} className={css.image}>
+            <img 
+              src={props.image} 
+              alt="" 
+            />
+        </Link>
+        <Actions like={props.like}/>
         <div>Info</div>
+        <div className={css.comments}>
+          <b>Комментарии:</b>
+          {
+            props.comments.map((item) => <Comment key={item.id} {...item}/>)
+          }
+        </div>
     </div>
   )
 }

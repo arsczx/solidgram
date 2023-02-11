@@ -36,7 +36,7 @@ export const sideBarElements = [
     },
     {
         title: "Уведомления",
-        icon: chat, 
+        icon: reels, 
         to: "/reels",       
     },
     {

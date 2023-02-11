@@ -16,6 +16,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path='/' element={<PrivatRoute isAuth={isAuth}> <HomePage /> </PrivatRoute>} />
+        <Route path='/post/:id' element={<h1>hello post</h1>} />
         <Route path='/login' element={<PublicRoute isAuth={isAuth}><LoginPage /></PublicRoute>} />
         <Route path='/chat' element={<PrivatRoute isAuth={isAuth}> <MessagePage /> </PrivatRoute>} />
         <Route path='/interesting' element={<InterestingPage />} />

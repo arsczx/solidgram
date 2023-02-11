@@ -7,7 +7,7 @@
 }
 
 .recomendation {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 350px;
     width: 35%;
 }
@@ -17,9 +17,13 @@
 }
 
 .storis {
-    height: 80px;
+    height: 125px;
     width: 100%;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
+    overflow-x: scroll;
+    display: flex;
+    padding: 6px 0;
+
 }
 
 .posts {

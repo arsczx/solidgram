@@ -1,0 +1,32 @@
+.wrapper {
+    margin: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.header {
+    display: flex;
+}
+
+.nick {
+    color: rgb(38, 38, 38);
+    font-size: 14px;
+    font-weight: 600;
+    /* text-transform: lowercase; */
+}
+
+.txt {
+    color: rgb(38, 38, 38);
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.footer {
+    display: flex;
+    margin-top: 8px;
+    grid-gap: 15px;
+    font-weight: 600;
+    font-size: 12px;
+    color: rgb(142, 142, 142);
+}
